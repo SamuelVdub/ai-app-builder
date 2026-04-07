@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'AI App Builder',
-  description: 'Track your dev tools, follow onboarding steps, and get AI help — all in one place.',
+  title: 'Kelston Way Greenhouse Project Hub',
+  description: '5-Acre Commercial Greenhouse Build — Oglesby, Texas. Targeting operational January 1, 2027.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
