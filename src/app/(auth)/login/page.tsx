@@ -61,7 +61,7 @@ export default function LoginPage() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="Enter password"
+              placeholder="Enter project password"
               required
               className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-colors"
               style={{

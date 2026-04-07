@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
   const { password } = await request.json()
-  const SHARED_PASSWORD = process.env.SHARED_PASSWORD || 'greenhouse2027'
+  const SHARED_PASSWORD = process.env.SHARED_PASSWORD || 'KWG'
 
   if (password !== SHARED_PASSWORD) {
     return NextResponse.json({ error: 'Invalid password' }, { status: 401 })
